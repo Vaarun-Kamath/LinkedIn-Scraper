@@ -4,16 +4,18 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 from selenium.webdriver.chrome.service import Service
 from colorama import Fore, Back, Style
-
 from colorama import init as init_colorama
 import time
 from dotenv import load_dotenv
 import os
 import pandas as pd
 import numpy as np
+from datetime import datetime
 
 load_dotenv() # Loads the environment variables
 init_colorama() # Initializes the colorama instance
+
+linkedInLoggedIn = False
 
 
 # binary = FirefoxBinary('/path/to/firefox/binary')
@@ -35,18 +37,18 @@ def waitFor(text:str, element,successMessage = '',refreshOnFail = False) -> bool
             browser.refresh()
             print(Fore.RED + "Refresing browser" + Style.RESET_ALL)
             time.sleep(1)
-        print("Failed to wait for element")
+        print("❌ "+"Waiting for page load...")
         return False
-    print(Fore.GREEN + successMessage + Style.RESET_ALL )
+    print(Fore.GREEN + "✅ " + successMessage + Style.RESET_ALL )
     return True
 
 
 # Given email address and password, function will login to LinkedIn
 def loginLinkedIn(email, password):
-
+    global linkedInLoggedIn
     browser.get('https://www.linkedin.com/')
     # Waits for element to load
-    while(not waitFor('LinkedIn: Log In or Sign Up', browser.title," LinkedIn page loaded successfully ",refreshOnFail = True)):
+    while(not waitFor('LinkedIn: Log In or Sign Up', browser.title,"LinkedIn page loaded successfully ",refreshOnFail = True)):
         continue
     # loginLinkedIn(env('LINKEDIN_MAIL'),env('LINKEDIN_PASS'))
     email_input = browser.find_element(By.XPATH,'//*[@id="session_key"]')
@@ -60,9 +62,83 @@ def loginLinkedIn(email, password):
     waitFor(email, email_input.get_attribute('value'),"Entered credentials successfully")
 
     login_button.click()
+    while(not waitFor('Feed | LinkedIn', browser.title,"Logged in on LinkedIn",refreshOnFail = True)):
+        continue
 
+    linkedInLoggedIn = True
 
-def scrapeEmail():
+# https://www.linkedin.com/company/google/people/?facetGeoRegion=102713980&keywords=HR
+def scrapeCompanyLink():
+    if not linkedInLoggedIn:
+        print(Fore.RED + "\n❌ To scrape emails you need to be logged in on LinkedIn\n" + Style.RESET_ALL)
+        return
+    df = pd.read_csv('Datasets/Dataset.csv')
+
+    companies = list(df['CompanyName'])
+    searchBar = browser.find_element(By.XPATH,'/html/body/div[5]/header/div/div/div/div[1]/input')
+    companyLinks = []
+    companyIds = []
+    txtsave = "companies1.txt"
+    errorlogsave = f"ErrorLogs_{datetime.now().strftime('%d_%m_%Y %H-%M-%S')}_.txt"
+    f = open(errorlogsave, "w")
+    f.close()
+    for company in companies:
+        searchBar.send_keys(Keys.CONTROL + 'a' + Keys.BACKSPACE)
+        searchBar.send_keys(company)
+        searchBar.send_keys(Keys.ENTER)
+        giveup = False
+        giveUpMargin = 2000
+
+        while(not waitFor(company, browser.title,f"LinkedIn search loaded successfully: {company}",refreshOnFail = False)):
+            giveUpMargin -= 1
+            if giveUpMargin == 0:
+                giveup = True
+                break
+            continue
+        if giveup:
+            print(f"Given Up on {company}")
+            companyLinks.append("Gave up")
+            with open(txtsave, "a") as file:
+                file.write(f"{company}:Gave up" + "\n")
+            continue
+        # Find required data from the webpage, If not found then fill with None
+        try:
+            searchResults = browser.find_element(By.XPATH,'/html/body/div[5]/div[3]/div[2]/div/div[1]/main/div/div')
+            links = searchResults.find_elements(By.TAG_NAME,'a')
+            links = [link.get_attribute('href') for link in links if '/company/' in link.get_attribute('href')]
+            companyIdValue = browser.find_element(By.XPATH,'/html/body/div[5]/div[3]/div[2]/div/div[1]/main/div/div/div[1]/div/ul/li/div').get_attribute('data-chameleon-result-urn')
+            if "company" not in companyIdValue:
+                raise Exception(f"Company {company} not in SearchResult")
+        except Exception as e:
+            # f.close()
+            print(f"Error at company {company}, Logs at: {errorlogsave}")
+            with open(errorlogsave, "a") as file:
+                file.write(f"{e}")
+            companyLinks.append(None)
+            companyIds.append(None)
+            with open(txtsave, "a") as file:
+                file.write(f"{company} : None" + "\n")
+            time.sleep(3)
+            os.system('cls')
+            continue
+
+        if links: # Maybe companyIdValue 
+            print(f"{giveUpMargin}: [{companyIdValue}] : {company} : {links[0]}")
+            companyLinks.append(links[0])
+            companyIds.append(companyIdValue)
+            with open(txtsave, "a") as file:
+                file.write(f"[{companyIdValue}]: {company}: {links[0]}" + "\n")
+        else:
+            print(company," : None")
+            companyLinks.append(None)
+            companyIds.append(None)
+            with open(txtsave, "a") as file:
+                file.write(f"{company} : None" + "\n")
+        os.system('cls')
+        # break
+    df['LinkedIn'] = companyLinks
+    df.to_csv('CompanyLinkedIn.csv',index = False)
+        # break
     print("Scraping email...")
 
 def scrapeCompanies():
@@ -127,20 +203,28 @@ browser = webdriver.Firefox()
 
 
 while True:
+    if env('AUTO_LOGIN'):
+        print(Fore.RED + "\nAuto-login enabled. Logging in..." + Fore.LIGHTBLACK_EX + "\nTo disable auto login, change environment variable AUTO_LOGIN to False.\n" + Style.RESET_ALL)
+        loginLinkedIn(env('LINKEDIN_MAIL'),env('LINKEDIN_PASS'))
+    if not linkedInLoggedIn:
+        print("(l): Login to LinkedIn")
+    
     print("(c): Scrape Companies on Glassdoor")
-    print("(l): Login to LinkedIn")
-    print("(s): Scrape Emails on LinkedIn ")
+    print("(s): Scrape Company LinkedIn Links")
     print("(q): Quit")
+    print("LinkedIn login status:","✅" if linkedInLoggedIn else "❌")
     choice = input(": ")
     if choice == 'q':
         break
     elif choice == 's':
-        scrapeEmail()
+        scrapeCompanyLink()
     elif choice == 'c':
-
         scrapeCompanies()
     elif choice == 'l':
-        loginLinkedIn(env('LINKEDIN_MAIL'),env('LINKEDIN_PASS'))
+        if not linkedInLoggedIn:
+            loginLinkedIn(env('LINKEDIN_MAIL'),env('LINKEDIN_PASS'))
+        else:
+            print("Already logged in :)")
     else:
         print("Unknown choice")
 

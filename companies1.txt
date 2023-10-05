@@ -1,0 +1,45 @@
+[urn:li:company:1033]: Accenture: https://www.linkedin.com/company/accenture/
+[urn:li:company:1038]: Deloitte: https://www.linkedin.com/company/deloitte/
+Cisco Systems : None
+[urn:li:company:15088102]: Dell Technologies: https://www.linkedin.com/company/delltechnologies/
+[urn:li:company:1035]: Microsoft: https://www.linkedin.com/company/microsoft/
+[urn:li:company:1441]: Google: https://www.linkedin.com/company/google/
+[urn:li:company:1053]: Intel Corporation: https://www.linkedin.com/company/intel-corporation/
+[urn:li:company:1115]: SAP: https://www.linkedin.com/company/sap/
+[urn:li:company:4300]: Mindtree: https://www.linkedin.com/company/mindtreeltd/
+[urn:li:company:1344]: Honeywell: https://www.linkedin.com/company/honeywell/
+J.P. Morgan : None
+Hewlett Packard Enterprise | HPE : None
+[urn:li:company:2017]: Qualcomm: https://www.linkedin.com/company/qualcomm/
+[urn:li:company:23213]: Concentrix: https://www.linkedin.com/company/concentrix/
+[urn:li:company:1070]: Nokia: https://www.linkedin.com/company/nokia/
+Robert Bosch : None
+[urn:li:company:1068]: JPMorgan Chase & Co: https://www.linkedin.com/company/jpmorganchase/
+[urn:li:company:1043]: Siemens: https://www.linkedin.com/company/siemens/
+[urn:li:company:2988]: VMware: https://www.linkedin.com/company/vmware/
+IQVIA : None
+[urn:li:company:1307]: Fidelity Investments: https://www.linkedin.com/company/fidelity-investments/
+[urn:li:company:497017]: Morgan Stanley: https://www.linkedin.com/company/morgan-stanley/
+GE:Gave up
+[urn:li:company:5211]: Teleperformance: https://www.linkedin.com/company/teleperformance/
+[urn:li:company:2329]: Schneider Electric: https://www.linkedin.com/company/schneider-electric/
+Flipkart:Gave up
+[urn:li:company:1480]: Adobe: https://www.linkedin.com/company/adobe/
+Shell:Gave up
+HP Inc. : None
+[urn:li:company:3185]: Salesforce: https://www.linkedin.com/company/salesforce/
+[urn:li:company:1666]: Intuit: https://www.linkedin.com/company/intuit/
+[urn:li:company:277579]: ABB: https://www.linkedin.com/company/abb/
+[urn:li:company:33667640]: Robert Bosch India: https://www.linkedin.com/company/robert-bosch-india-limited-bangalore/
+Freelancer : None
+[urn:li:company:1016]: GE HealthCare: https://www.linkedin.com/company/gehealthcare/
+[urn:li:company:3608]: NVIDIA: https://www.linkedin.com/company/nvidia/
+Visa Inc.:Gave up
+Informatica:Gave up
+Unilever:Gave up
+NetApp:Gave up
+Apple:Gave up
+[urn:li:company:1397]: Texas Instruments: https://www.linkedin.com/company/texas-instruments/
+American Express : None
+Juniper Networks:Gave up
+ANZ:Gave up

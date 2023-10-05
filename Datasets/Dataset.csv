@@ -1,0 +1,501 @@
+CompanyName,Rating,Reviews,Salaries,Jobs,Location,Industry
+Accenture,4.1,1.5L,78.6T,27.3T,Bengaluru,Business Consulting
+Deloitte,4.1,1L,34T,35.3T,Bengaluru,Accounting & Tax
+Cisco Systems,4.4,31.7T,8T,438,Bengaluru,Enterprise Software & Network Solutions
+Dell Technologies,4.3,33.3T,9.9T,136,Bengaluru,Information Technology Support Services
+Microsoft,4.3,49.7T,9.9T,1.6T,Bengaluru,Computer Hardware Development
+Google,4.4,45.8T,8.5T,1.8T,Bengaluru,Internet & Web Services
+Intel Corporation,4.1,29.3T,4.2T,1.3T,Bengaluru,Computer Hardware Development
+SAP,4.4,28.4T,5.1T,2T,Bengaluru,Enterprise Software & Network Solutions
+Mindtree,4,11.1T,9.9T,--,https://www.mindtree.com/about/locations,Information Technology Support Services
+Honeywell,4,20.4T,5.6T,2.8T,Bengaluru,Computer Hardware Development
+J.P. Morgan,4.1,23.5T,7.4T,15,Bengaluru,Investment & Asset Management
+Hewlett Packard Enterprise | HPE,4.2,16.9T,3.9T,875,Bengaluru,Information Technology Support Services
+Qualcomm,4.1,9.8T,3.8T,--,Bengaluru,Computer Hardware Development
+Concentrix,4.3,30.4T,9.1T,1.8T,Bengaluru,Information Technology Support Services
+Nokia,4.2,17.8T,4.9T,832,Bengaluru,Telecommunications Services
+Robert Bosch,4.3,15.2T,4.4T,262,Bengaluru,Computer Hardware Development
+JPMorgan Chase & Co,4,23.5T,3.6T,5.5T,Bengaluru,Banking & Lending
+Siemens,4.1,20.4T,4.5T,11.3T,"No. 84, Keonics, Electronics City, Hosur Road",Electronics Manufacturing
+VMware,4.5,10.9T,3.3T,778,"Kalyani Vista, 192A, 3rd Main Rd, Doresanipalya, Anthappa Layout, Phase 4, J. P. Nagar, Bengaluru, Karnataka",Enterprise Software & Network Solutions
+IQVIA,4,12.9T,4T,2.1T,Bengaluru,Biotech & Pharmaceuticals
+Fidelity Investments,4.3,14.9T,2.5T,1.2T,Bengaluru,Investment & Asset Management
+Morgan Stanley,3.9,17.7T,3.4T,835,3 office locations in Bengaluru,Investment & Asset Management
+GE,4,18.3T,2.3T,1.2T,"Unit No.1, 4th Floor,Inventor Building, ITPL, Whitefield",Machinery Manufacturing
+Teleperformance,4.5,49.8T,8.5T,1.2T,Bengaluru,Telecommunications Services
+Schneider Electric,4.2,13.9T,3T,3.5T,Bengaluru,Energy & Utilities
+Flipkart,4,5T,6.9T,89,"Flipkart Internet Private Limited, Buildings Alyssa, Begonia & Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli Village, Bangalore, Karnataka, IN",Internet & Web Services
+Adobe,4.4,8.9T,4.2T,445,Bengaluru,Computer Hardware Development
+Shell,4.1,13.2T,2T,1.1T,Bengaluru,Energy & Utilities
+HP Inc.,4.2,9.3T,2T,1.1T,Bengaluru,Computer Hardware Development
+Salesforce,4.3,17.3T,2.5T,992,"Torrey Pines, Third Floor, Embassy Golf Links Business Park, Varthur Hobli, Challaghatta Village, Bangalore Urban, Karnataka,",Enterprise Software & Network Solutions
+Intuit,4.6,10T,1.1T,1.4T,"EcoSpace, Intuit Campus 8 , 4A , 6A, Pritech Rd, Adarsh Palm Retreat, Bellandur",Software Development
+ABB,4.1,9T,2T,3.8T,Bengaluru,Electronics Manufacturing
+Robert Bosch India,4,4.4T,4.4T,1,Bengaluru,Machinery Manufacturing
+Freelancer,4.2,14.8T,6.2T,44,Bengaluru,HR Consulting
+GE HealthCare,4.3,7.2T,1.5T,1.2T,Bengaluru,Healthcare Services & Hospitals
+NVIDIA,4.6,5.1T,1.8T,2.9T,Bengaluru,Computer Hardware Development
+Visa Inc.,4.1,6T,1.1T,609,Bengaluru,Information Technology Support Services
+Informatica,4.1,2.9T,1.7T,24,"No. 66/1, Bagmane Commerz 02 - Bagmane Tech Park C V Raman Nagar",Enterprise Software & Network Solutions
+Unilever,4.1,15.1T,1.7T,841,Bengaluru,Consumer Product Manufacturing
+NetApp,4.2,5T,1.4T,157,"NetApp Bangalore Campus ITPL Main Road, Hoodi, Bengaluru 560048 India",Enterprise Software & Network Solutions
+Apple,4.3,38.8T,1.1T,4.2T,Bengaluru,Computer Hardware Development
+Texas Instruments,4.5,5.2T,1.2T,268,Bengaluru,Electronics Manufacturing
+American Express,4.2,16T,4.4T,201,Bengaluru,Financial Transaction Processing
+Juniper Networks,4.3,4.1T,1.6T,254,Bengaluru,Telecommunications Services
+ANZ,4.1,4.9T,1.4T,170,2 office locations in Bengaluru,Banking & Lending
+Vodafone,4,16.3T,3T,4.5T,Bengaluru,Telecommunications Services
+LinkedIn,4.3,6.6T,878,32,Bengaluru,Internet & Web Services
+Akamai,4.7,2.9T,1.2T,153,Bengaluru,Information Technology Support Services
+[24]7.ai,4.2,3.3T,2T,11,Bengaluru,Information Technology Support Services
+McKinsey & Company,4.3,10.1T,1.6T,100,Bengaluru,Business Consulting
+Volvo Group,4.2,4.9T,684,1.2T,Bengaluru,Transportation Equipment Manufacturing
+Capital One,4.1,15.4T,344,1.5T,Bengaluru,Banking & Lending
+General Motors (GM),4,12T,437,754,Bengaluru,Transportation Equipment Manufacturing
+Synopsys,4.1,3.4T,1.4T,417,Bengaluru,Computer Hardware Development
+Siemens Healthineers,4.1,4.3T,1.1T,1.7T,Bengaluru,Biotechnology
+SelfEmployed.com,4.4,10.5T,2.4T,--,Bengaluru,Business Consulting
+Thoughtworks,4.4,3.8T,2T,31,"ACR Mansion G + 3floors, 147/F, 8th Main, 3rd Block, Koramangala",Information Technology Support Services
+TATA ELXSI,4.1,2.7T,2.7T,100,2 office locations in Bengaluru,Information Technology Support Services
+Applied Materials,4.1,3.8T,659,518,Bengaluru,Electronics Manufacturing
+Caterpillar,4,7.7T,1.1T,947,Bengaluru,Machinery Manufacturing
+Mercedes-Benz Research and Development India,4.1,1.9T,2.2T,1.6T,"Plot No. 5-P, EPIP Zone, Phase 1, Whitefield Road, Near Satya Sai Baba Hospital ,Bengaluru ,Karnataka – 560066",Information Technology Support Services
+Airbus,4.1,6.1T,516,3.3T,Bengaluru,Aerospace & Defence
+Nutanix,4.2,2T,840,151,Bengaluru,Enterprise Software & Network Solutions
+Yahoo,4.1,5.9T,466,1.5T,Bengaluru,Internet & Web Services
+Decathlon,4,7.7T,1.2T,2.6T,Bengaluru,Sporting Goods Stores
+Blue Yonder,4.1,2.9T,1.6T,197,"Tower A, Mantri Commercio, Nr Sakra World Hospital, Outer Ring Road",Enterprise Software & Network Solutions
+Manhattan Associates,4.1,1.7T,988,88,Bengaluru,Enterprise Software & Network Solutions
+Persistent Systems,4,5.9T,5.8T,84,3 office locations in Bengaluru,Information Technology Support Services
+Happiest Minds Technologies,4.3,1.8T,1.4T,4,2 office locations in Bengaluru,Information Technology Support Services
+GSK,4.1,12.2T,779,1.9T,Bengaluru,Biotech & Pharmaceuticals
+DONE by NONE,4,4T,3.7T,--,Bengaluru,Computer Hardware Development
+Cargill,4,7T,494,1.9T,Bengaluru,Crop Production
+EPAM Systems,4.2,8.6T,1.7T,1.5T,"Smartworks, Global Technology Park, Block C, Outer Ring Rd, Adarsh Palm Retreat, Bellandur, Bengaluru, Karnataka",Information Technology Support Services
+Arm,4.2,2.3T,454,528,"Bagmane World Technology Center - SEZ Citrine Block, 5th and 6th Floor Marathahalli Outer Ring Road",Computer Hardware Development
+Boston Consulting Group,4.1,7.8T,1.6T,1.1T,"1701, 17th Floor, Canberra Tower B UB City-24, Vittal Mallya Road",Business Consulting
+AMD,4.1,4.3T,746,870,Bengaluru,Computer Hardware Development
+MathWorks,4.5,2.3T,668,402,Bengaluru,Software Development
+Myntra,4.2,1.5T,1.9T,30,"Buildings Alyssa, Begonia and Clover situated in Embassy Tech Village, Outer Ring Road, Devarabeesanahalli Village, Varthur Hobli",Internet & Web Services
+Carelon Global Solutions,4,1.9T,2.1T,77,Bengaluru,Information Technology Support Services
+CBRE,4,10.9T,1.2T,4T,Bengaluru,Real Estate
+Fresher,4.1,846,6.4T,--,Bengaluru,N/A
+Gartner,4.1,7.1T,1.4T,516,Bengaluru,Business Consulting
+Aon,4,7.1T,1.2T,817,Bengaluru,Insurance Agencies & Brokerages
+Marriott International,4,16.9T,881,30.1T,Bengaluru,Hotels & Resorts
+NatWest Group,4,8.9T,3.9T,602,Bengaluru,Banking & Lending
+Bharti Airtel,4.1,5.8T,5T,1.7T,Bengaluru,Telecommunications Services
+Self Opportunity,4.3,4.9T,2.1T,--,Bengaluru,Advertising & Public Relations
+Novo Nordisk,4.3,3.3T,553,1.1T,Bengaluru,Biotech & Pharmaceuticals
+Infineon Technologies,4.2,3.5T,532,1.6T,Bengaluru,Electronics Manufacturing
+Bank of America,4,38.5T,2.8T,1.1T,Bengaluru,Banking & Lending
+Ness Digital Engineering,4.2,2.3T,1.1T,303,Bengaluru,Information Technology Support Services
+Atkins,4,2.7T,608,1.2T,Bengaluru,Business Consulting
+MAERSK,4.2,5.5T,2T,2.4T,"Milestone Buildcon, bhartiya city, Chokanahalli, Karnataka",Marine Transportation
+Altimetrik,4.1,1.8T,1.5T,2,2 office locations in Bengaluru,Information Technology Support Services
+Atlassian,4.4,2.2T,489,198,"Floor 10, 4C, RMZ Eco world, Bellandur",Software Development
+Eli Lilly and Company,4,4.5T,386,644,Bengaluru,Biotech & Pharmaceuticals
+Accenture Solutions,4.1,2.2T,2.5T,--,Bengaluru,N/A
+Fractal,4.1,1.6T,1.9T,60,"West Tower, Block 2A, Embassy Tech Village, Outer Ring Road",Business Consulting
+AXA,4,6.4T,434,966,Bengaluru,Insurance Carriers
+Tavant,4.4,1.3T,1.1T,20,"#12, CSRIE-II, Guava Garden, 5th Block, Koramangala",Enterprise Software & Network Solutions
+upGrad,4.2,2.3T,2T,42,Domlur,Colleges & Universities
+Capgemini Invent,4.1,3.7T,964,196,Bengaluru,Business Consulting
+Red Hat,4.2,4.2T,871,146,"10th Floor, East Tower, Carina building, Bagmane Constellation Business Park, Doddanekundi Circle, K R Puram -Marathahalli Outer Ring Road, Bengaluru",Enterprise Software & Network Solutions
+NIKE,4.2,13.9T,229,1.1T,Bengaluru,Consumer Product Manufacturing
+Diageo,4,3.5T,503,427,3 office locations in Bengaluru,Food & Beverage Manufacturing
+Cadence Design Systems,4.3,2.5T,1.1T,258,Bengaluru,Computer Hardware Development
+Broadridge,4,2.6T,989,353,"Divyasree NR Enclave, Plot No-1, EPIP Industrial Area, Whitefield",Financial Transaction Processing
+Bosch,4.2,2.6T,622,5.5T,Bengaluru,Consumer Product Manufacturing
+Swiss Re,4,2.2T,503,285,Bengaluru,Insurance Agencies & Brokerages
+Autodesk,4.3,4.3T,367,327,Bengaluru,Enterprise Software & Network Solutions
+Apexon,4,1.9T,985,12,Bengaluru,Information Technology Support Services
+Luxoft,4.1,3.6T,361,753,Bengaluru,Information Technology Support Services
+FICO,4.1,1.5T,744,95,Bengaluru,Computer Hardware Development
+Sony,4.1,3.4T,507,2.5T,Bengaluru,Consumer Product Manufacturing
+Expedia Group,4.1,6.7T,1T,205,"Yellappa Garden, Yellappa Chetty Layout, Sivanchetti Gardens",Internet & Web Services
+Analog Devices,4,2.4T,518,970,Bengaluru,Electronics Manufacturing
+Barclays,4,17.9T,5.1T,500,Bengaluru,Banking & Lending
+ServiceNow,4.4,3.9T,987,511,Bengaluru,Enterprise Software & Network Solutions
+Motorola Solutions,4,4.1T,266,634,Bengaluru,Telecommunications Services
+Merck KGaA,4,2.6T,452,635,Bengaluru,Biotech & Pharmaceuticals
+Lam Research,4.2,2T,362,212,Bengaluru,Electronics Manufacturing
+Lenovo,4,3.8T,367,386,2 office locations in Bengaluru,Computer Hardware Development
+HashedIn by Deloitte,4.3,809,1.2T,1,Bengaluru,Information Technology Support Services
+eBay,4.1,5.5T,204,11,Bengaluru,Internet & Web Services
+IHS Markit,4,4.1T,1.2T,4,Bengaluru,Business Consulting
+Parexel,3.8,3.3T,854,350,Bengaluru,Biotech & Pharmaceuticals
+Nagarro,4.2,4.4T,4.6T,1T,"# 148, Prestige Feather lite Tech Park, EPIP Zone, Whitefield",Information Technology Support Services
+Infor,4,4.6T,985,339,Bengaluru,Enterprise Software & Network Solutions
+Zynga,4.5,1.3T,463,91,Bengaluru,Video Game Publishing
+ICICI Prudential Life Insurance,4.4,3.8T,3.1T,150,Bengaluru,Insurance Carriers
+Embibe,4.2,1.3T,960,--,"Diamond District, No. 150, 1st Floor, Tower B, HAL Old Airport Rd, Kodihalli, Bengaluru, Karnataka 560008",Education Support & Training Services
+NXP Semiconductors,4.1,2.5T,713,439,Bengaluru,Electronics Manufacturing
+Software AG,4.4,1.2T,512,175,"5th & 6th Floor, Embassy Tech Village - SEZ Marathahalli Outer Ring Road, Devarabisanahalli",Software Development
+Nuance,4,3.3T,633,15,Bengaluru,Computer Hardware Development
+Grab,4.2,3.6T,208,180,Bengaluru,Internet & Web Services
+Johnson & Johnson,4.2,15.1T,831,1.5T,Bengaluru,Biotech & Pharmaceuticals
+Other,4.1,1.8T,2T,1,Bengaluru,"Civic, Welfare & Social Services"
+Infogain,4,2.6T,1.5T,102,Bengaluru,Information Technology Support Services
+Tredence,4,763,891,58,"2nd Floor, Sattva Knowledge Court, 20 21, 7th Cross Rd, Green Domain Layout, EPIP Zone, Whitefield, Bengaluru, Karnataka",Business Consulting
+Mahindra,4,3.3T,3.1T,465,Bengaluru,Transportation Equipment Manufacturing
+Motorola Mobility,4,2.8T,299,399,Bengaluru,N/A
+AstraZeneca,4.1,7T,940,2.2T,Bengaluru,N/A
+InMobi,4.2,882,888,22,Bengaluru,N/A
+Indian Institute of Science,4.5,1.1T,988,13,Bengaluru,N/A
+Microchip Technology,4,1.9T,522,698,Bengaluru,N/A
+MakeMyTrip,4.2,1.7T,1.5T,2,"2nd Floor, Tower B, Divyashree Technopolis, Yemalur, HAL Old Airport Road Bangalore",N/A
+Epicor Software,4.2,1.8T,288,48,Bengaluru,N/A
+Toyota Motor Corporation,4,2.8T,231,1.9T,Bengaluru,N/A
+Gojek,4.2,1.3T,507,12,Bengaluru,N/A
+CSG,4.5,1.2T,508,57,Bengaluru,N/A
+Bayer,4.1,8.3T,302,1.2T,Bengaluru,N/A
+Amdocs,4,10.7T,6.8T,63,Bengaluru,N/A
+Arcadis,4.1,3.8T,238,1.5T,Bengaluru,N/A
+Synechron,4.3,4.2T,2.9T,79,Bengaluru,N/A
+Fortinet,4.4,2.2T,151,485,"The Millennia, # 1 & 2, Murphy Road Ulsoor, Bangalore – 560 008",N/A
+Torry Harris Integration Solutions,4,908,673,--,4 office locations in Bengaluru,N/A
+PepsiCo,4,18.9T,853,5.8T,Bengaluru,N/A
+Marvell Technology,4.1,1.9T,345,96,Bengaluru,N/A
+Zscaler,4,1.8T,564,288,Bengaluru,N/A
+Altair Engineering,4.1,860,426,324,"Prestige Trade Towers, Municipal No 46,First Floor Palace Road, Municipal Ward No 77, Sampangiramanagar, Bengaluru – 560 001, India +80-66294500",N/A
+Palo Alto Networks,4.6,2T,217,1T,Bengaluru,N/A
+ADP,4,18.6T,3.3T,2.1T,Bengaluru,N/A
+YES,4.2,869,2.4T,34,Bengaluru,N/A
+Bain & Company,4.4,6.9T,1.6T,127,Bengaluru,N/A
+Tietoevry,4.3,2.9T,1.6T,647,Bengaluru,N/A
+Mercedes-Benz Group,4.2,4.8T,247,1.7T,Bengaluru,N/A
+Softtek,3.9,2.9T,234,56,Bengaluru,N/A
+Novartis,4,9.6T,2.1T,2.1T,Bengaluru,N/A
+Siemens Digital Industries Software,4.3,2.7T,1.1T,337,2 office locations in Bengaluru,N/A
+BMC Software,4.1,2.7T,1.2T,171,Bengaluru,N/A
+Procter & Gamble,4.1,16T,677,345,Bengaluru,Consumer Product Manufacturing
+Test,4,1.4T,1.4T,1,Bengaluru,HR Consulting
+Merck,4.2,6.3T,148,154,Bengaluru,Biotech & Pharmaceuticals
+Colt Technology Services,4.4,1.5T,560,75,Bengaluru,Telecommunications Services
+PhonePe,4.1,753,1T,155,"Phonepe Private Limited Office-2, Floor 4,5,6,7, Wing A, Block A, Salarpuria Softzone, Service Road, Green Glen Layout, Bellandur, Karnataka-KA,",Internet & Web Services
+Shadowfax Technologies,4.3,1.3T,980,--,Bengaluru,N/A
+Indeed,4.2,3.7T,264,31,Bengaluru,Internet & Web Services
+Hilton,4,10.5T,199,7.3T,Bengaluru,Hotels & Resorts
+Tata Motors,4.2,3.8T,3.9T,--,Bengaluru,Transportation Equipment Manufacturing
+Titan Company,4,821,833,12,"Veersandra, Electronic City Phase I",Consumer Product Manufacturing
+Bosch Global Software Technologies,4.1,800,852,--,Bengaluru,Software Development
+Protiviti,4.1,3.5T,672,253,Bengaluru,Business Consulting
+Tata Communications,4,3.3T,2.7T,1.3T,Bengaluru,"Cable, Internet & Telephone Providers"
+Amelia,2.8,970,281,25,"5th Floor, Voyager Building, Ascendas ITPB SEZ, ITPB, Whitefield Road, Bengaluru, Karnataka",Enterprise Software & Network Solutions
+Zebra Technologies,4.1,1.5T,257,67,Bengaluru,Computer Hardware Development
+Huron Consulting Group,4.3,1.5T,218,193,Bengaluru,Business Consulting
+Allstate India,4.2,842,815,1.6T,"RMZ Ecoworld, 7th Floor, Building No. 1, Devarabeesanahalli Village, Varthur Hobli, Bangalore, Karnataka 560 037, IN",Information Technology Support Services
+Nestlé,4.1,14.3T,963,1.9T,Bengaluru,Food & Beverage Manufacturing
+Infinera,4.2,830,319,83,"Prestige Solitaire, 401, Level 4, 6 Brunton Road",Electronics Manufacturing
+RadiSys,4.4,796,546,2,Bengaluru,Telecommunications Services
+Teamware Solutions,4.5,1.5T,734,75,Bengaluru,Information Technology Support Services
+Globant,4.3,7.5T,959,150,Bengaluru,Software Development
+SonicWall,4.4,909,309,37,Bengaluru,Enterprise Software & Network Solutions
+Aditya Birla Group,4,1.7T,1.7T,170,Bengaluru,Consumer Product Manufacturing
+Bristlecone,4.1,1T,797,145,"2nd Floor, D Block, RMZ Centennial, ITPL Road, Whitefield Bangalore",Information Technology Support Services
+Saint-Gobain,4,4.7T,880,3.4T,Bengaluru,Construction
+Encora,4.3,1.4T,312,307,Bengaluru,Information Technology Support Services
+ACL Digital,4,768,606,95,"7th Floor, Tower D, IBC Knowledge Park, 4/1, Bannerghatta Main Road, Bengaluru",Information Technology Support Services
+PUMA,4.1,2T,250,459,Bengaluru,"Department, Clothing & Shoe Stores"
+Manpower,4.2,8.5T,293,46.9T,Bengaluru,HR Consulting
+Ford Motor Company,4,13T,1.8T,2.8T,Bengaluru,Transportation Equipment Manufacturing
+S&P Global,4.1,6.5T,2.4T,2.2T,Bengaluru,Research & Development
+L'Oréal,4,12T,338,1.4T,Bengaluru,Consumer Product Manufacturing
+Trianz,4.3,772,513,7,Bengaluru,Information Technology Support Services
+Square Yards,4.2,2T,956,56,2 office locations in Bengaluru,Real Estate
+Zoho,4.5,3.8T,4.4T,58,Bengaluru,Computer Hardware Development
+FireEye,4.1,988,252,--,"Salapuria Infinity, Bannerghatta Road, Dairy Circle, Bangalore",Computer Hardware Development
+eClinicalWorks,4,1.6T,966,4,Bengaluru,Computer Hardware Development
+Trigent Software,4,734,431,19,"Khanija Bhavan, 1st Floor, 49, Race Course Road, Bangalore - 560 001, India +91 (80) 2226 3000",Information Technology Support Services
+Impetus Technologies,4.3,1.2T,812,101,Bengaluru,Computer Hardware Development
+Great Learning,4,776,842,11,2 office locations in Bengaluru,Education Support & Training Services
+IDFC First Bank,4,1.8T,2.1T,96,Bengaluru,Banking & Lending
+Fresherworld.com,4,609,1.9T,--,Bengaluru,Film Production
+Delta Air Lines,4.3,7.1T,57,22,Bengaluru,"Airlines, Airports & Air Transportation"
+Bharat Heavy Electricals,4.1,1.4T,1.3T,2,Bengaluru,Electronics Manufacturing
+o9 Solutions,4,480,483,--,"Building-2, Office Level-9, PRESTIGE TECHNOSTAR, Doddanekundi Industrial Area, Doddanekundi Village, Krishnarajapuram Hobli, Bengaluru South Taluk,",Enterprise Software & Network Solutions
+Valtech,4.1,893,215,2,"No. 30/A, First Main Road, Industrial Suburb, 3rd Phase, J.P. Nagar",Advertising & Public Relations
+Cuelearn,4.2,965,755,--,Bengaluru,Primary & Secondary Schools
+LanceSoft,4.4,1.4T,403,60,Bengaluru,HR Consulting
+eTeam,4.2,2.2T,554,821,Bengaluru,"Staffing, Recruitment & Subcontracting"
+DBS Bank,4,6.9T,1.3T,1.4T,Bengaluru,Banking & Lending
+UiPath,4,915,169,98,"3rd Floor, VRR Royal, Commercial Complex, 21st A Main, 17th Cross Road, 1st Sector, HSR Layout,",Enterprise Software & Network Solutions
+Ashok Leyland,4.1,1.3T,1.3T,--,Bengaluru,Transportation Equipment Manufacturing
+SAP Ariba,4.1,604,200,2T,Bengaluru,Enterprise Software & Network Solutions
+SAP Concur,4.2,1.2T,136,--,Bengaluru,Computer Hardware Development
+Private,4.1,2.2T,816,53,Bengaluru,Healthcare Services & Hospitals
+CME Group,4,1.4T,102,183,Bengaluru,Investment & Asset Management
+Sage,4,4.9T,150,19,Bengaluru,Enterprise Software & Network Solutions
+HCL Infosystems,4.1,1.5T,1T,525,Bengaluru,Computer Hardware Development
+Aruba Networks,4.1,732,274,875,Bengaluru,Enterprise Software & Network Solutions
+Chegg,4.1,3T,1.8T,--,Bengaluru,Internet & Web Services
+IBS Software,4,1.2T,1.2T,35,"Crescent 1, 11th floor, Prestige Shantiniketan,Whitefield-Hoodi Road",Enterprise Software & Network Solutions
+Silicon Valley Bank,4.3,1.3T,139,--,Bengaluru,Banking & Lending
+Orange,4,8.4T,568,908,Bengaluru,Telecommunications Services
+Futures First,4.2,782,890,2,Bengaluru,Research & Development
+Tejas Networks,4.1,503,582,22,2 office locations in Bengaluru,Electronics Manufacturing
+Tally Solutions,4.5,500,504,--,Bengaluru,Computer Hardware Development
+AOL,4.1,1.6T,91,1.5T,Bengaluru,Publishing
+Capillary Technologies,4.1,528,514,5,Bengaluru,Enterprise Software & Network Solutions
+Kimberly-Clark,4.1,4.1T,117,1.1T,Bengaluru,Consumer Product Manufacturing
+Snapdeal,4.3,1.6T,1.4T,--,Bengaluru,Internet & Web Services
+Tiger Analytics,4.2,845,1.2T,66,Bengaluru,Business Consulting
+Bread Financial,4.3,1.4T,105,21,Bengaluru,Banking & Lending
+redBus India,4.4,559,429,3,3 office locations in Bengaluru,Internet & Web Services
+Freelance,4.2,2.2T,612,2,Bengaluru,N/A
+Apisero,4.4,723,762,10,"WeWork, Tin Factory, 78 Old Madras Road Mahadevapura, next to KR Puram",Information Technology Support Services
+MH Alshaya,4,1.1T,198,106,Bengaluru,Other Retail Shops
+Infoblox,4.5,637,250,89,Bengaluru,Enterprise Software & Network Solutions
+Freshers.com,4,332,1.9T,--,Bengaluru,N/A
+Nasdaq,4,1.1T,107,108,Bengaluru,Stock Exchanges
+ValueLabs,4.3,2.7T,2.3T,--,Bengaluru,Information Technology Support Services
+Accor,4.1,3.5T,285,1.7T,Bengaluru,Hotels & Resorts
+Replicon,4.1,414,260,77,"Mantri Commercio, Tower B, 5th Floor, Devarabisanahalli, Bellandur Post, Bangalore – 560103",Enterprise Software & Network Solutions
+Aditi Consulting,4.3,1T,227,25,Bengaluru,Business Consulting
+Lenskart Solutions,4,1.2T,977,70,"BKN Ambaram Estates # 648/L 1st Main 1st Stage, Indiranagar",Other Retail Shops
+Robosoft Technologies,4.4,718,566,32,"J T Annex, Second Floor, #562/640/1,2,3, Bilekahalli, Bannerghatta Main Rd,",Information Technology Support Services
+Pfizer,4.1,8.7T,414,1.5T,Bengaluru,Biotech & Pharmaceuticals
+MediaTek,4,1.4T,266,37,Bengaluru,Electronics Manufacturing
+Nous Infosystems,4.1,508,401,95,Bengaluru,Software Development
+Defence Research & Development Organisation,4.3,1.1T,696,--,Bengaluru,National Services & Agencies
+JUSPAY,4.4,306,439,3,Bengaluru,Internet & Web Services
+AppDynamics,4,890,115,16,"Commerz Building, Bagmane Tech Park, Krishnappa Garden Road C V Raman Nagar, Karnataka",Enterprise Software & Network Solutions
+In Time Tec,4,565,439,42,Bengaluru,Computer Hardware Development
+Indecomm Global Services,4.1,547,329,26,"Maruthi Infotech Centre, Inner Ring Road, Domlur",Enterprise Software & Network Solutions
+Booking.com,4.2,7.5T,65,156,Bengaluru,Internet & Web Services
+Randstad Sourceright,4.2,2.1T,200,84,Bengaluru,Business Consulting
+Synchronoss,4.2,604,227,8,Bengaluru,Enterprise Software & Network Solutions
+Extreme Networks,4.3,993,198,114,Bengaluru,Enterprise Software & Network Solutions
+Yahoo India,4.5,422,402,--,Bengaluru,Internet & Web Services
+Tessolve,4.1,473,405,20,2 office locations in Bengaluru,Architectural & Engineering Services
+Novozymes,4.2,722,189,24,Bengaluru,Biotech & Pharmaceuticals
+IBM iX,4,883,339,52,Bengaluru,Information Technology Support Services
+None of Your Business Boutique,4.2,808,420,--,Bengaluru,N/A
+The Coca-Cola Company,4.1,9.6T,239,344,Bengaluru,Food & Beverage Manufacturing
+Keysight Technologies,4.2,1.9T,446,379,Bengaluru,Electronics Manufacturing
+Sanofi,4,9.6T,342,1.3T,Bengaluru,Biotech & Pharmaceuticals
+Nineleaps Technology Solutions,4.4,282,333,2,"1025 & 1030, 80 Feet Road, Koramangala 1st Block Bangalore 560034",Information Technology Support Services
+Ericsson India Global services Pvt. Ltd.,4.3,694,871,--,Bengaluru,N/A
+Tecnotree,4,524,294,--,CV Raman Nagar,Telecommunications Services
+Neustar,4.2,865,142,--,Bengaluru,Internet & Web Services
+Jacobs,4,6.7T,603,3.2T,Bengaluru,Architectural & Engineering Services
+Coviam,4,303,212,3,Bengaluru,Computer Hardware Development
+Mastech Digital,4.2,717,193,172,Bengaluru,Information Technology Support Services
+Cure.Fit,4.1,418,403,22,Bengaluru,Healthcare Services & Hospitals
+KPMG US,4,1.7T,141,18,Bengaluru,Business Consulting
+Netskope,4.5,641,126,89,"1st floor, Sattva Knowledge Court, 20, 21, 7th Cross Rd, Green Domain Layout, EPIP Zone, Whitefield.",Enterprise Software & Network Solutions
+Ansys,4.2,963,258,481,Bengaluru,Computer Hardware Development
+Media.net,4.2,738,1T,39,Bengaluru,Internet & Web Services
+Rockstar Games,4.3,509,217,155,Bengaluru,Video Game Publishing
+Neudesic,4,595,341,--,Bengaluru,Information Technology Support Services
+Tata,4.2,1.2T,779,42,Bengaluru,Architectural & Engineering Services
+Mirafra Technologies,4.1,392,320,43,Bengaluru,Computer Hardware Development
+Stryker,4.1,6.1T,510,1.6T,Bengaluru,Health Care Products Manufacturing
+Indium Software,4.2,535,546,1,Bengaluru,Information Technology Support Services
+Mastercard,4.3,5.8T,1.6T,786,Bengaluru,Financial Transaction Processing
+Info Edge,4,1.6T,1.5T,--,Bengaluru,Internet & Web Services
+RSM,3.9,6T,148,2.6T,Bengaluru,Accounting & Tax
+Cummins,4.2,7.5T,1.1T,1.2T,Bengaluru,Transportation Equipment Manufacturing
+Directi,4,519,571,7,Bengaluru,Internet & Web Services
+Hibu,4,1.6T,54,277,Bengaluru,Advertising & Public Relations
+BlackRock,4,5.4T,984,186,Bengaluru,Investment & Asset Management
+Avery Dennison,4,1.8T,164,338,Bengaluru,Consumer Product Manufacturing
+Government of India,4.3,1.3T,1.7T,--,Bengaluru,National Services & Agencies
+Intelliswift,4.2,596,335,192,Bengaluru,Software Development
+Cimpress,4.2,480,438,51,Bengaluru,Internet & Web Services
+Novel Office,4.6,272,163,--,Hosur Road,Real Estate
+Moog Inc.,4.2,1.1T,68,383,Bengaluru,Aerospace & Defence
+Mindlance,4.1,745,240,12,Bengaluru,HR Consulting
+ACKO General Insurance,4.1,286,321,--,"#36/5, Hustlehub One East, Somasandrapalya, 27th Main Rd, Sector 2, HSR Layout, Bengaluru, Karnataka",Insurance Carriers
+Tricon Infotech,4.2,311,245,1,"# 143, 144, Hosur Main Road, Industrial Layout Koramangala,",Information Technology Support Services
+Perficient,4.1,1.9T,361,180,Bengaluru,Information Technology Support Services
+Shapoorji Pallonji,4,1T,869,--,Bengaluru,Construction
+Aurigo Software Technologies,4.8,543,196,--,"Essae Vaishnavi Summit, No. 6/B, 7th Main, 80 Feet Road, 3rd Block,Koramangala Industrial Layout",Software Development
+SymphonyAI,4.2,442,200,66,Bengaluru,Enterprise Software & Network Solutions
+CARS24.com,4.1,1.2T,1T,35,Bengaluru,Internet & Web Services
+Treebo Hotels,4,351,332,35,Bengaluru,Hotels & Resorts
+Arcesium,4,628,814,34,"6th Floor, North Tower, West Wing ITC Green Centre, Marutiseva Nagar Banaswadi Main Road,",Information Technology Support Services
+Atlas Copco,4.1,2T,423,1.9T,Bengaluru,Machinery Manufacturing
+SAIC,4,4.2T,116,1.2T,Bengaluru,Information Technology Support Services
+Dynatrace,4.2,1.3T,211,50,Bengaluru,Enterprise Software & Network Solutions
+Hudl,4.1,769,446,7,Bengaluru,Computer Hardware Development
+John Deere,4.2,6.1T,1.3T,837,Bengaluru,Machinery Manufacturing
+Accentue,4.2,610,493,--,Bengaluru,N/A
+Idexcel,4.1,275,131,11,Bengaluru,Information Technology Support Services
+IHG Hotels and Resorts,4,4.6T,346,1.3T,Bengaluru,Hotels & Resorts
+Allianz,4,6.6T,1.1T,1.2T,Bengaluru,Investment & Asset Management
+Ather Energy,4,253,312,33,Bengaluru,Electronics Manufacturing
+Allegion,4,624,150,275,Bengaluru,Consumer Product Manufacturing
+Enquero,4,346,306,4,"IndiQube - Grape Garden Survey No.130, 18th Main Road, 1st A Cross, 6th Block, Koramangala",Enterprise Software & Network Solutions
+Verint,4,1.1T,70,59,Bengaluru,Enterprise Software & Network Solutions
+Cashfree,4.4,369,303,25,Bengaluru,Information Technology Support Services
+Ciena,4.4,2T,636,115,Bengaluru,Telecommunications Services
+Seven Lakes Technologies,4.2,354,47,6,"1st Floor, Office No. 1103, WeWork, Block L, Embassy Tech Village, Outer Ring Rd",Computer Hardware Development
+SLB,4,11.5T,957,389,Bengaluru,Energy & Utilities
+BRIDGEi2i,4,221,332,--,Bengaluru,Business Consulting
+Mobile Premier League,4,272,393,--,"Sakti Statesman, 6th Floor · Green Glen Layout, Bellandur · Bengaluru, Karnataka 560103",Video Game Publishing
+Nagravision,4.1,361,206,6,Bengaluru,Broadcast Media
+Pramati Technologies,4.3,653,611,--,"15th Fl, WTC, Brigade Gateway, Malleswaram",Enterprise Software & Network Solutions
+Amazon Development Centre,4,552,741,--,Bengaluru,N/A
+ZestMoney,4.3,270,338,--,Bengaluru,Banking & Lending
+BSH Hausgeräte,4,1T,156,416,Bengaluru,Consumer Electronics & Appliances Stores
+Apptio,4.1,525,115,95,Bengaluru,Enterprise Software & Network Solutions
+Hilti Group,4.1,2.6T,359,350,Bengaluru,Construction
+Xoxoday,4.1,271,245,--,"#17 Bhagyalaxmi Square, 2nd Floor, 3rd Sector, HSR Layout",Enterprise Software & Network Solutions
+Times Internet,4.2,1.2T,1.2T,8,Bengaluru,Internet & Web Services
+Falabella,4.1,900,93,523,Bengaluru,"Department, Clothing & Shoe Stores"
+Airbnb,4.3,2.4T,232,19,Bengaluru,Internet & Web Services
+Zinnov Management Consulting,4,316,435,8,Bengaluru,Business Consulting
+GE Capital,4,1.9T,101,2,Bengaluru,Investment & Asset Management
+Wiley Edge,4.1,688,87,17,Bengaluru,Information Technology Support Services
+Mott MacDonald,4.1,2.3T,298,201,Bengaluru,Architectural & Engineering Services
+IDEMIA,4,1.7T,396,113,Bengaluru,Enterprise Software & Network Solutions
+Halodoc,4.2,244,149,--,"5th Floor Shubha Ram Complex, 144, Mahatma Gandhi Rd, Craig Park Layout, Ashok Nagar, Bengaluru, Karnataka 560001, India",Healthcare Services & Hospitals
+HackerEarth,4,258,266,11,"Indiqube Orion, 24th Main, Agara Village, 1st Sector, HSR Layout",Enterprise Software & Network Solutions
+Roche,4.1,7.7T,211,1.2T,Bengaluru,Biotech & Pharmaceuticals
+Mars,4.3,5T,154,1.4T,Bengaluru,Food & Beverage Manufacturing
+iEnergizer,4.7,5T,3.9T,5,Bengaluru,Information Technology Support Services
+None Such Farm,4,526,615,--,Bengaluru,Grocery Stores
+HSBC Software Development India,4.1,1.5T,1.7T,--,Bengaluru,N/A
+IDC (International Data Corporation),4,670,96,8,Bengaluru,Information Technology Support Services
+Innova Solutions,4,1.4T,826,16,Bengaluru,Enterprise Software & Network Solutions
+Hyatt,4,6.6T,426,4.5T,Bengaluru,Hotels & Resorts
+Groww,4.2,254,344,1,"Prom's complex, 1st floor, SBI Colony, Koramangala 1A block",Internet & Web Services
+FactSet,4.1,3.9T,1.5T,89,Bengaluru,Investment & Asset Management
+Sonus Networks,4,344,210,9,Bengaluru,Electronics Manufacturing
+Mouser Electronics,4.1,494,110,81,Bengaluru,Electronics Manufacturing
+Databricks,4.5,971,49,437,"Block L, Embassy TechVillage Outer Ring Rd",Computer Hardware Development
+Aston Carter,4.2,1.7T,371,2.3T,Bengaluru,HR Consulting
+Flexera,4.2,443,94,2,"100 Feet Road Srinivagilu, 6th A Main Rd",Computer Hardware Development
+D. E. Shaw India,4.2,719,943,--,Bengaluru,Investment & Asset Management
+Pratian Technologies,4,222,190,--,Bengaluru,Enterprise Software & Network Solutions
+ThoughtFocus,4,390,263,44,Bengaluru,Information Technology Support Services
+Freelance.com,4.1,1.1T,496,64,Bengaluru,N/A
+Mobility Quest,4.1,680,482,2,Bengaluru,N/A
+Enverus,4,459,133,90,Bengaluru,Enterprise Software & Network Solutions
+NICE,4,2.1T,626,73,Bengaluru,Enterprise Software & Network Solutions
+Molecular Connections,4,283,246,26,Bengaluru,Healthcare Services & Hospitals
+HackerRank,4.3,256,199,3,Bengaluru,Information Technology Support Services
+MoEngage,4.3,207,251,30,"#151, Moksha Mansion, Koramangala 1st Block, Bengaluru, 560034",Enterprise Software & Network Solutions
+Current,4.3,473,1.1T,56,Bengaluru,"Gift, Novelty & Souvenir Stores"
+Resideo,4.2,502,133,80,Bengaluru,Computer Hardware Development
+Born Group,4.1,524,363,42,Bengaluru,Internet & Web Services
+lululemon,4.3,7.5T,18,2T,Bengaluru,"Department, Clothing & Shoe Stores"
+Agilent Technologies,4.2,2.5T,352,111,Bengaluru,Biotech & Pharmaceuticals
+Henkel,4.6,6.6T,173,958,Bengaluru,Consumer Product Manufacturing
+Springworks,4.3,365,259,1,Bengaluru,Internet & Web Services
+Awign Enterprises,4.2,359,250,22,"#2, 91Springboard, 3rd Floor,, Padmavati Complex, 80 Feet Road, Opposite NGV Indoor Stadium, Koramangala 8th Block, Bengaluru, Karnataka",Internet & Web Services
+Indian Oil,4.1,1.6T,1.5T,--,Bengaluru,Wholesale
+Nothing,4,436,720,--,Bengaluru,N/A
+Tata Steel,4.1,2.5T,2T,588,Bengaluru,Metal & Mineral Manufacturing
+Leap,4.3,333,309,36,HSR Layout,Education Support & Training Services
+J.P. Morgan Asset Management,4.1,883,162,--,Bengaluru,Investment & Asset Management
+Pramata,4.4,319,245,--,Bengaluru,Software Development
+Team Computers,4.1,1.1T,659,36,Bengaluru,Information Technology Support Services
+Dr. Reddy's,4.1,1.7T,1.4T,69,Bengaluru,Biotech & Pharmaceuticals
+Honda,4,3.8T,347,2.4T,Bengaluru,Transportation Equipment Manufacturing
+IndianMoney.com,4.2,457,174,--,Bengaluru,Investment & Asset Management
+Yara,4.2,1T,80,134,Bengaluru,Chemical Manufacturing
+Herman Miller,4,683,84,13,Bengaluru,Consumer Product Manufacturing
+Elsevier,4.5,1.9T,174,103,Bengaluru,Publishing
+IonIdea,4,248,173,--,Bengaluru,Information Technology Support Services
+Aditya Birla Fashion & Retail,4,398,511,1,Bengaluru,N/A
+Open Financial Technologies,4.1,254,231,--,Bengaluru,Financial Transaction Processing
+Elektrobit,4,400,117,137,"Plot No. 21, 22, 27, 28, Shanthipura Road",Enterprise Software & Network Solutions
+Geekyants Software,4.1,187,274,12,Bengaluru,Information Technology Support Services
+North American Corporation,4.2,919,1.3T,9,Bengaluru,Advertising & Public Relations
+Embitel Technologies,4.4,187,163,--,3 office locations in Bengaluru,Information Technology Support Services
+Manthan,4.1,335,168,--,Bengaluru,Enterprise Software & Network Solutions
+HCCBPL,4,593,484,--,Bengaluru,Food & Beverage Manufacturing
+Vitesco Technologies,4,592,116,3,Bengaluru,Transportation Equipment Manufacturing
+Qualcomm Technologies,4.1,494,252,--,Bengaluru,Internet & Web Services
+Veoneer,4,392,125,70,Bengaluru,N/A
+Weir Group,4,765,81,298,Bengaluru,Mining & Metals
+Avanade,4.2,5.1T,47,943,Bengaluru,Information Technology Support Services
+GlobusSoft,4.3,451,342,5,Bengaluru,Computer Hardware Development
+Course5 Intelligence,4.4,482,400,13,"Bldg 2A, Aster- East Tower Lower Ground Flr Embassy Tech Village (Formerly Vrindavan Tech Village) Marathalli – Sarjapur Outer Ring Road Devarabeesanahalli,",Business Consulting
+IGT Solutions,4.6,4.2T,1.8T,40,Bengaluru,Information Technology Support Services
+Harness,4,308,95,33,"Indiqube Orion,24th Main Rd, Agara Village, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102",Software Development
+"Infovision, Inc.",4.2,465,165,15,"9th Floor, Discoverer Block, International Tech Park, (ITP-B) (ITPL) Bangalore, Tel: +91-80-41122114, Tel: +91-80-41155114",Information Technology Support Services
+Scania Group,4.1,1.7T,32,818,Bengaluru,Transportation Equipment Manufacturing
+Rapido,4.1,259,309,3,Bengaluru,Information Technology Support Services
+Altruist Technologies,4,508,520,10,Bengaluru,Information Technology Support Services
+Angel One,4.1,852,738,99,Bengaluru,Investment & Asset Management
+Draup,4.1,307,387,3,"Koramangala Industrial Layout, Koramangala",Software Development
+VeeTechnologies,4,346,289,42,2 office locations in Bengaluru,Healthcare Services & Hospitals
+Thorogood,4.4,135,190,1,Bengaluru,Enterprise Software & Network Solutions
+Max Life Insurance,4,940,883,35,Bengaluru,Insurance Carriers
+Grant Thornton International,4,963,156,141,Bengaluru,Accounting & Tax
+freelance,4.3,1.2T,237,--,Bengaluru,N/A
+MongoDB,4.4,1.8T,209,228,Bengaluru,Enterprise Software & Network Solutions
+EY-Parthenon,4,1.4T,261,--,Bengaluru,Business Consulting
+CDM Smith,4,830,69,669,Bengaluru,Business Consulting
+QBurst,4.5,836,1T,26,Bengaluru,Information Technology Support Services
+Hindustan Petroleum,4.1,918,993,--,Bengaluru,Metal & Mineral Manufacturing
+LatentView Analytics,4.1,628,797,25,"8th Floor, Umiya Business Bay No.2, Outer Ring Road, Cessna Business Park, ORR",Business Consulting
+Equinix,4.2,2.2T,37,750,Bengaluru,Enterprise Software & Network Solutions
+Colgate-Palmolive,4.3,3.5T,423,273,Bengaluru,Consumer Product Manufacturing
+IDEA Cellular,4.1,902,733,--,Bengaluru,Telecommunications Services
+ReSource Pro,4.3,295,153,12,Bengaluru,Insurance Agencies & Brokerages
+US Air Force,4.1,26.6T,38,660,Bengaluru,National Services & Agencies
+Moolya Software Testing,4.2,184,161,--,Bengaluru,Information Technology Support Services
+Taj Group of Hotels,4.1,701,521,4,Bengaluru,Hotels & Resorts
+SoftwareOne,4,1.2T,360,280,Bengaluru,Information Technology Support Services
+CoinDCX,4.3,188,139,--,"Vaishnavi Tech Park, Sarjapur",Investment & Asset Management
+Recro,4.4,163,165,--,"#106, 6th Main,, Kundalhalli, Bangalore, KA",Internet & Web Services
+Cybage Software,4,3.6T,3.3T,42,Bengaluru,Information Technology Support Services
+Bühler Group,4,567,84,243,Bengaluru,Machinery Manufacturing
+Mistral Solutions,4,203,212,24,Bengaluru,Architectural & Engineering Services
+Red Bull,4.2,3.5T,126,1.3T,Bengaluru,Food & Beverage Manufacturing
+Scaler Academy,4,482,604,9,Bengaluru,Education Support & Training Services
+Intelenet,4.1,839,505,--,Bengaluru,Advertising & Public Relations
+SSi People,4.1,176,75,7,Bengaluru,HR Consulting
+DNEG,4,913,525,224,Bengaluru,Film Production
+PTC,4.2,2.5T,807,331,Bengaluru,Computer Hardware Development
+Hero MotoCorp,4,1.5T,1.4T,32,Bengaluru,Transportation Equipment Manufacturing
+NeoSOFT,4,1.3T,1.2T,25,"91 Spring board, 4th Floor, No. 22, 5th Block, Salarpuria Towers - I, Hosur Road, Koramangala",Information Technology Support Services
+Synchrony,4.2,2.1T,619,144,Bengaluru,Banking & Lending
+Avnet,4.1,1.4T,43,348,Bengaluru,Consumer Electronics & Appliances Stores
+ING,4.1,4.6T,36,1.7T,Bengaluru,Investment & Asset Management
+Hughes Systique,4.4,499,433,--,"Level 8, Umiya Business Bay, Tower 1, Cessna Business Park, Marathahalli ORR, Bengaluru, Karnataka, India",Information Technology Support Services
+Rentokil PCI,4.3,538,480,7,Bengaluru,Building & Personnel Services
+ASM Technologies,4,291,214,16,Bengaluru,Business Consulting
+Q2 Software,4,409,55,53,"Primeco Unioncity, Block B, 3rd Floor, Plot no. 18, 19A & 19B Sy.no. 76 and 87 Sadaramangala Industrial Area , Whitefield Main Road,",Investment & Asset Management
+Progress,4.1,753,240,8,"Srinidhi Building, 3rd Floor, 27th Main Road Bangalore, 560102 India",Enterprise Software & Network Solutions
+USEReady,4.5,250,150,11,"NO. 17/4C, 4th Floor, Maruthi Chambers, Roopena Agrahara, Bommannahalli, Hosur Road",Business Consulting
+Gainsight,4.7,480,334,16,"Kay Kay Towers 17th Cross Road Sector 7, HSR Layout Bengaluru, Karnataka, India",Enterprise Software & Network Solutions
+Integra Micro Software Services (P),4.1,278,181,--,"Jakkur, Bangalore",Information Technology Support Services
+Freescale Semiconductor,4.1,1T,179,--,Bengaluru,Electronics Manufacturing
+Mondelēz International,4,6.7T,376,1.2T,Bengaluru,Food & Beverage Manufacturing
+DreamWorks Animation,4.3,672,61,2,Bengaluru,Film Production
+Confluent,3.9,352,33,69,Bengaluru,Computer Hardware Development
+DreamOrbit Softech,4.5,255,161,--,"No 23,24, First Floor, AMR Tech Park 2, Hosur Main Road, Hongasandra, Bengaluru, Karnataka, 560068",Enterprise Software & Network Solutions
+ESPN,4.1,1.5T,46,55,Bengaluru,Film Production
+MSys Technologies,4.3,527,432,6,"No: 56/3, 6th Floor, Vakil Square, Bannerghatta Road",Information Technology Support Services
+Version 1,4.6,560,35,229,"Nakshatra, #25, 6th Block, 100 Feet Road, Banashankari 3rd Stage",Information Technology Support Services
+TransUnion,4,2T,397,222,Bengaluru,Research & Development
+Calix,4.8,766,27,20,"Tower B, 3rd Floor, RMZ Infinity, Benniganahalli, Old Madras Road",Enterprise Software & Network Solutions
+Vymo,4,186,194,1,"Vymo, 6 11, 2 nd C ross R d, 3rd B lock, Koramangala, Bengaluru, Karnataka 5 60034",Enterprise Software & Network Solutions
+ThoughtSpot,4,259,114,38,Bengaluru,Enterprise Software & Network Solutions
+msg global solutions,4.4,278,118,144,"Primal Projects Pvt Ltd. SEZ, Outer Ring Road",Information Technology Support Services
+Startup Germany,4.2,398,250,--,Bengaluru,N/A
+Amiti Software Technologies,4.1,154,137,--,Bengaluru,Information Technology Support Services
+Festo,4.2,736,70,80,Bengaluru,Machinery Manufacturing
+Bloomreach,4.6,318,65,3,Bengaluru,Enterprise Software & Network Solutions
+Cloudnine Hospital,4.4,439,185,2,Bengaluru,Healthcare Services & Hospitals
+Manulife,4,4.4T,51,1.6T,Bengaluru,Investment & Asset Management
+Indiana University,4.1,3.4T,133,697,Bengaluru,Colleges & Universities
+Bazaarvoice,4.1,747,37,33,"3rd Floor, Tower C Smartworks Global Technology Park 3, Road, Devarabisanahalli, Bellandur,",Enterprise Software & Network Solutions
+Jumbotail,4,198,180,55,"Eastland Citadel, 6th Floor, No.102, Hosur Road, Madiwala Check post, Bangalore 560 029 Link : https://goo.gl/maps/3srxAGeAMek",Internet & Web Services
+Self Employed Womens Association,4.3,1T,284,--,Bengaluru,Membership Organisations
+StoneX,4.2,498,60,143,Bengaluru,N/A
+Travelers,4.1,5.6T,93,548,Bengaluru,Insurance Carriers
+Marsh McLennan,4,3T,510,204,Bengaluru,Insurance Agencies & Brokerages
+Narayana Health,4.1,313,337,1,Bengaluru,Healthcare Services & Hospitals
+Exide Life,4.1,302,342,2,Bengaluru,Insurance Carriers
+Orange Business,4,2.3T,647,1.5T,Bengaluru,Enterprise Software & Network Solutions
+ninjacart,4.3,1.1T,1T,68,"WeWork Vaishnavi Signature, No. 78/9, Outer Ring Road, Bellandur Village, Varthur Hobli, Bengaluru, Karnataka - 560103",Information Technology Support Services
+Atlas Systems,4.8,245,98,14,"Level 15, Concorde towers, UB City, 1 Vittal Mallya Road",Information Technology Support Services
+Indian Air Force,4.7,614,651,--,Bengaluru,National Services & Agencies
+Intellect Design Arena,4.2,2T,1.6T,15,Bengaluru,Computer Hardware Development
