@@ -16,6 +16,41 @@ This Python script is designed to scrape data from both LinkedIn and Glassdoor. 
 
 - **Respect Usage Policies:** Always respect the websites' robots.txt files and usage policies when scraping data.
 
+## Steps to run the application
+- Create a virtual environment, run the following command after cloning the repo
+  ```bash
+  python -m venv venv
+  ```
+- Activate the virtual environment
+  - Windows:
+    ```bash
+    venv\Scripts\activate
+    ```
+  - MacOS:
+    ```bash
+    source venv/bin/activate
+    ```
+- Install all required python packages [Make sure to have the virtual environment running]
+  ```bash
+  pip install -r requirements.txt
+  ```
+- Create a " .env " file in the folder and fill the following.
+  ```diff
+  - NOTE: Dont worry, the .gitignore file has .env files ignored, so your credentials [the .env file] wont be pushed on the github and it will be on your local machine only.
+  ```
+  ```bash
+  LINKEDIN_MAIL = "YOUR_EMAIL_FOR_LINKEDIN"
+  LINKEDIN_PASS = "YOUR_PASSWORD_FOR_LINKEDIN"
+  AUTO_LOGIN = True
+  ```
+- Run the main.py file using
+  ```bash
+  python main.py
+  ```
+- To stop the virtual environment running, run
+  ```bash
+  deactivate
+  ```
 
 ## Usage
 1. Environment Setup: Before using the script, ensure that you have set the necessary environment variables for LinkedIn login (LINKEDIN_MAIL and LINKEDIN_PASS) in a .env file.
