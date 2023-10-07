@@ -78,7 +78,7 @@ def scrapeCompanyLink():
     searchBar = browser.find_element(By.XPATH,'/html/body/div[5]/header/div/div/div/div[1]/input')
     companyLinks = []
     companyIds = []
-    txtsave = "companies1.txt"
+    txtsave = "companies.txt"
     errorlogsave = f"ErrorLogs_{datetime.now().strftime('%d_%m_%Y %H-%M-%S')}_.txt"
     f = open(errorlogsave, "w")
     f.close()
@@ -195,8 +195,7 @@ def scrapeCompanies():
 
     print(len(df))
     print(df['Description'])
-    df.to_csv('CompanyDataFalse.csv',index = False)
-    df.to_csv('CompanyDataTrue.csv',index = True)
+    df.to_csv('CompanyDataFalse.csv',index = False) # Change False to True to have index at start
         # break
 
 browser = webdriver.Firefox()
