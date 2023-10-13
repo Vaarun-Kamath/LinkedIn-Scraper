@@ -199,9 +199,18 @@ def scrapeCompanies():
     df.to_csv('CompanyDataFalse.csv',index = False) # Change False to True to have index at start
         # break
 
-firefox_options = Options()
-firefox_options.add_argument("--headless")
-browser = webdriver.Firefox(options = firefox_options)
+while True:
+    bool_head = input("Do you want to run it headless? (y/n): ")
+    firefox_options = Options()
+    if bool_head.lower() == 'y':
+        firefox_options.add_argument("--headless")
+        browser = webdriver.Firefox(options = firefox_options)
+        break
+    elif bool_head.lower() == 'n':
+        browser = webdriver.Firefox()
+        break
+    else:
+        print("Enter only 'y' or 'n'!")
 
 
 while True:
