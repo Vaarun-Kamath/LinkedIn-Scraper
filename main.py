@@ -12,11 +12,16 @@ import os
 import pandas as pd
 import numpy as np
 from datetime import datetime
+from winreg import HKEY_CURRENT_USER, OpenKey, QueryValueEx
+register_path = r'Software\Microsoft\Windows\Shell\Associations\UrlAssociations\https\UserChoice'
+with OpenKey(HKEY_CURRENT_USER, register_path) as key:
+    print(QueryValueEx(key, 'ProgId'))
 
 load_dotenv() # Loads the environment variables
 init_colorama() # Initializes the colorama instance
 
 linkedInLoggedIn = False
+chromedriver = "C:/Users/Adhesh/Desktop/heknite/Email-Scraper/Webdrivers/chromedriver"
 
 
 # binary = FirefoxBinary('/path/to/firefox/binary')
@@ -198,19 +203,50 @@ def scrapeCompanies():
     print(df['Description'])
     df.to_csv('CompanyDataFalse.csv',index = False) # Change False to True to have index at start
         # break
+if key == 'Opera GXStable' or 'Chrome':
+    #brop='chrome_options'
+    while True:
+        bool_head = input("Do you want to run it headless? (y/n): ")
+        chrome_options = Options()
+        if bool_head.lower() == 'y':
+            chrome_options.add_argument("--headless")
+            browser = webdriver.Chrome(options = chrome_options)
+            break
+        elif bool_head.lower() == 'n':
+            browser = webdriver.Chrome()
+            break
+        else:
+            print("Enter only 'y' or 'n'!")
+elif key == 'Firefox':
+    #brop='chrome_options'
+    while True:
+        bool_head = input("Do you want to run it headless? (y/n): ")
+        firefox_options = Options()
+        if bool_head.lower() == 'y':
+            firefox_options.add_argument("--headless")
+            browser = webdriver.Firefox(options = firefox_options)
+            break
+        elif bool_head.lower() == 'n':
+            browser = webdriver.Firefox()
+            break
+        else:
+            print("Enter only 'y' or 'n'!")
+else:
+    while True:
+        bool_head = input("Do you want to run it headless? (y/n): ")
+        firefox_options = Options()
+        if bool_head.lower() == 'y':
+            firefox_options.add_argument("--headless")
+            browser = webdriver.Edge(options = firefox_options)
+            break
+        elif bool_head.lower() == 'n':
+            browser = webdriver.Edge()
+            break
+        else:
+            print("Enter only 'y' or 'n'!")
 
-while True:
-    bool_head = input("Do you want to run it headless? (y/n): ")
-    firefox_options = Options()
-    if bool_head.lower() == 'y':
-        firefox_options.add_argument("--headless")
-        browser = webdriver.Firefox(options = firefox_options)
-        break
-    elif bool_head.lower() == 'n':
-        browser = webdriver.Firefox()
-        break
-    else:
-        print("Enter only 'y' or 'n'!")
+    
+
 
 
 while True:
