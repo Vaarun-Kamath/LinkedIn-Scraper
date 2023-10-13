@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
@@ -198,7 +199,9 @@ def scrapeCompanies():
     df.to_csv('CompanyDataFalse.csv',index = False) # Change False to True to have index at start
         # break
 
-browser = webdriver.Firefox()
+firefox_options = Options()
+firefox_options.add_argument("--headless")
+browser = webdriver.Firefox(options = firefox_options)
 
 
 while True:
