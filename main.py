@@ -29,6 +29,26 @@ def env(var: str) -> str:
         print(Fore.RED + f" {var}" + Style.RESET_ALL + " is not in the environment")
         quit()
 
+
+def select_browser():
+    while True:
+        print("Select a browser:")
+        print("1. Firefox")
+        print("2. Chrome")
+        print("3. Edge")
+        choice = input("Enter the number of your choice: ")
+        
+        if choice == '1':
+            return webdriver.Firefox()
+        elif choice == '2':
+            return webdriver.Chrome()
+        elif choice == '3':
+            return webdriver.Edge()
+        else:
+            print("Invalid choice. Please select a valid browser.")
+
+browser = select_browser()
+
 def waitFor(text:str, element,successMessage = '',refreshOnFail = False) -> bool:
     try:
         assert text in element
