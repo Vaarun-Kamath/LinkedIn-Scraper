@@ -12,16 +12,13 @@ import os
 import pandas as pd
 import numpy as np
 from datetime import datetime
-from winreg import HKEY_CURRENT_USER, OpenKey, QueryValueEx
-register_path = r'Software\Microsoft\Windows\Shell\Associations\UrlAssociations\https\UserChoice'
-with OpenKey(HKEY_CURRENT_USER, register_path) as key:
-    print(QueryValueEx(key, 'ProgId'))
+key = int(input('1-chrome;2-firefox;3-edge'))
 
 load_dotenv() # Loads the environment variables
 init_colorama() # Initializes the colorama instance
 
 linkedInLoggedIn = False
-chromedriver = "C:/Users/Adhesh/Desktop/heknite/Email-Scraper/Webdrivers/chromedriver"
+
 
 
 # binary = FirefoxBinary('/path/to/firefox/binary')
@@ -203,7 +200,7 @@ def scrapeCompanies():
     print(df['Description'])
     df.to_csv('CompanyDataFalse.csv',index = False) # Change False to True to have index at start
         # break
-if key == 'Opera GXStable' or 'Chrome':
+if key == 1:
     #brop='chrome_options'
     while True:
         bool_head = input("Do you want to run it headless? (y/n): ")
@@ -217,7 +214,7 @@ if key == 'Opera GXStable' or 'Chrome':
             break
         else:
             print("Enter only 'y' or 'n'!")
-elif key == 'Firefox':
+elif key == 2:
     #brop='chrome_options'
     while True:
         bool_head = input("Do you want to run it headless? (y/n): ")
