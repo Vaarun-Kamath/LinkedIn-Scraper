@@ -1,5 +1,8 @@
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.chrome.options import Options as ChromeOptions
+from selenium.webdriver.edge.service import Service as EdgeService
+from msedge.selenium_tools import EdgeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
@@ -19,7 +22,8 @@ init_colorama() # Initializes the colorama instance
 linkedInLoggedIn = False
 
 
-# binary = FirefoxBinary('/path/to/firefox/binary')
+# binary = browser binary('/path/to/yourbrowser/binary')
+# selectedBrowser = 'chrome or edge or firefox'
 
 
 # Given variable name returns the value in .env
@@ -201,14 +205,38 @@ def scrapeCompanies():
 
 while True:
     bool_head = input("Do you want to run it headless? (y/n): ")
-    firefox_options = Options()
-    if bool_head.lower() == 'y':
-        firefox_options.add_argument("--headless")
-        browser = webdriver.Firefox(options = firefox_options)
-        break
-    elif bool_head.lower() == 'n':
-        browser = webdriver.Firefox()
-        break
+    if selectedBrowser == "firefox":
+        firefox_options = FirefoxOptions()
+    elif selectedBrowser == "chrome":
+        chrome_options = ChromeOptions()
+    elif selectedBrowser == "edge":
+        edge_options = EdgeOptions()
+    if bool_head.lower() == "y":
+        if selectedBrowser == "firefox":
+            firefox_options.add_argument("--headless")
+            browser = webdriver.Firefox(options=firefox_options)
+            break
+        elif selectedBrowser == "chrome":
+            chrome_options.add_argument("--headless")
+            browser = webdriver.Chrome(options=chrome_options)
+            break
+        elif selectedBrowser == "edge":
+            edge_options.use_chromium = True
+            browser = webdriver.Edge(options=edge_options)
+            break
+    elif bool_head.lower() == "n":
+        if selectedBrowser == "firefox":
+            firefox_options.add_argument("--headless")
+            browser = webdriver.Firefox()
+            break
+        elif selectedBrowser == "chrome":
+            chrome_options.add_argument("--headless")
+            browser = webdriver.Chrome()
+            break
+        elif selectedBrowser == "edge":
+            edge_options.use_chromium = True
+            browser = webdriver.Edge()
+            break
     else:
         print("Enter only 'y' or 'n'!")
 
