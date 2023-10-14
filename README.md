@@ -69,7 +69,7 @@ This Python script is designed to scrape data from both LinkedIn and Glassdoor. 
 - For LinkedIn scraping, the script creates a CSV file named "CompanyLinkedIn.csv" containing the LinkedIn profile links for the scraped companies.
 
 ## Prerequisites
-- You need to have Firefox installed and provide the path to the Firefox binary (commented out in the code) if you're using Firefox. Alternatively, you can adapt the script to use other browsers by changing the WebDriver.
+- You need to have Firefox, Chrome or Microsoft Edge installed and provide the name of the selected browser and the path to the respective browser's binary (commented out in the code). Alternatively, you can adapt the script to use other browsers by changing the WebDriver.
 - Ensure that you have installed all the required Python packages mentioned in the script.
 
 ## Disclaimer
